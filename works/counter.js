@@ -4,7 +4,7 @@ const countUp = () => {
   const countElement = document.querySelector('#count')
   countElement.innerText = '回数: ' + count
 }
-  const countDown = () => {
+const countDown = () => {
   count--
   const countElement = document.querySelector('#count')
   countElement.innerText = '回数: ' + count
