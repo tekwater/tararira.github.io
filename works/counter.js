@@ -5,9 +5,9 @@ const countUp = () => {
   countElement.innerText = '回数: ' + count
 }
   const countDown = () => {
-    count--
-    const countElement = document.querySelector('#count')
-    countElement.innerText = '回数: ' + count
+  count--
+  const countElement = document.querySelector('#count')
+  countElement.innerText = '回数: ' + count
 }
 const reset = () => {
   count = 0
