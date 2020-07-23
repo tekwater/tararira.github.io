@@ -5,6 +5,6 @@ const countUp = () => {
   countElement.innerText = '回数: ' + count
 
   const reset = () => {
-  countElement.innerText = '回数: ' + count
+  countElement.innerText = '回数: ' + 0
   }
 }
